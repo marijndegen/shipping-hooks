@@ -1,0 +1,26 @@
+{
+  "name": "shipping-hooks",
+  "version": "0.2.1",
+  "main": "dist/index.js",
+  "repository": "https://github.com/marijndegen/shipping-hooks.git",
+  "author": "Marijn Degen <16215123+marijndegen@users.noreply.github.com>",
+  "license": "GPL-3.0",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "files": [
+    "dist/*.js",
+    "dist/*.d.ts",
+    "dist/*.js.map"
+  ],
+  "devDependencies": {
+    "@types/react": "^18.3.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "react": "^18.3.1"
+  },
+  "description": "Various hooks for CoVadem and Autena"
+}
